@@ -1,0 +1,30 @@
+.play_button
+{
+    width: 130px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.play_button:hover
+{
+    background-color: rgb(38, 253, 38);
+    border-color: black;
+}
+
+.play_button:active
+{
+    background-color: lightgreen;
+    border-color: grey;
+}
+
+canvas
+{
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px cyan;
+}
+
+canvas:hover
+{
+    box-shadow: 10px 10px 10px darkblue;
+}
